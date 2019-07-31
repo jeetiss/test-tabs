@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Tabs, Tab, Panel } from "@bumaga/tabs";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default () => (
+  <Tabs>
+    <div>
+      <Tab><button>Tab 1</button></Tab>
+      <Tab><button>Tab 2</button></Tab>
+      <Tab><button>Tab 3</button></Tab>
     </div>
-  );
-}
 
-export default App;
+    <Panel><p>Panel 1</p></Panel>
+    <Panel><p>Panel 2</p></Panel>
+    <Panel><p>Panel 3</p></Panel>
+  </Tabs>
+);

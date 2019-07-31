@@ -1,3 +1,10 @@
+# test-tabs
+
+Steps to reproduce bug width importing untranspiled sources
+
+- `yarn`
+- `yarn test`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
